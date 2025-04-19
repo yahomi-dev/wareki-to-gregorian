@@ -1,0 +1,21 @@
+{
+	"name": "wareki-to-gregorian",
+	"version": "0.1.0",
+	"description": "和暦文字列を西暦(YYYY/MM/DD)に変換する",
+	"main": "dist/index.cjs.js",
+	"module": "dist/index.es.js",
+	"types": "dist/index.d.ts",
+	"files": ["dist"],
+	"scripts": {
+		"build": "vite build",
+		"test": "vitest"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "1.9.4",
+		"@types/node": "^22.14.1",
+		"typescript": "^5.8.3",
+		"vite": "^6.3.2",
+		"vite-plugin-dts": "^4.5.3",
+		"vitest": "^3.1.1"
+	}
+}
